@@ -3,6 +3,7 @@ package it.polito.tdp.seriea.model;
 public class Season {
 	private int season ;
 	private String description ;
+	
 	public Season(int season, String description) {
 		super();
 		this.season = season;

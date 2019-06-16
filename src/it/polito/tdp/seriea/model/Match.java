@@ -195,8 +195,11 @@ public class Match {
 			return false;
 		return true;
 	}
-	
-	
-	
+
+	@Override
+	public String toString() {
+		return String.format("Match [id=%s, season=%s, date=%s, homeTeam=%s, awayTeam=%s]", id, season, date, homeTeam,
+				awayTeam);
+	}
 
 }
